@@ -20,7 +20,7 @@ class Transfer
       @status = "complete"
     else
       self.status = "closed"
-      return Transaction rejected. Please check your account balance.
+      return "Transaction rejected. Please check your account balance."
     end
   end
 
