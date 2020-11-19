@@ -28,5 +28,6 @@ class BankAccount
 
   def close_account
     self.status = "closed"
+    return "Transaction rejected. Please check your account balance."
   end
 end
